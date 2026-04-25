@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio House</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="ambient ambient-left"></div>
+    <div class="ambient ambient-right"></div>
+
+    <main class="shell">
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Daily Residential Balance Sheet</p>
+          <h1>Portfolio House</h1>
+          <p class="subtitle">
+            Každý den nový odhad tržní hodnoty, jasný pohled na equity proti hypotékám
+            a elegantní vrstva pro cash, cashflow a další dluhy.
+          </p>
+          <div class="hero-pills">
+            <div class="pill" id="lastUpdatedPill">Načítám snapshot…</div>
+            <div class="pill" id="propertyCountPill">Načítám portfolio…</div>
+            <div class="pill accent" id="refreshTimePill">Denní rytmus…</div>
+          </div>
+          <div class="hero-actions">
+            <button class="btn" id="refreshButton" type="button">Přepočítat valuace</button>
+            <button class="btn ghost" id="scrollToSetup" type="button">Doplnit finance</button>
+          </div>
+        </div>
+
+        <div class="hero-stage">
+          <article class="stage-card stage-card-primary">
+            <span class="card-label">Net Worth Now</span>
+            <strong class="mega-number" id="heroNetWorth">-</strong>
+            <p id="heroNarrative">
+              Počítám aktuální real-estate equity, cash a ostatní dluhy.
+            </p>
+          </article>
+
+          <article class="stage-card">
+            <span class="card-label">Portfolio Value</span>
+            <strong id="heroValue">-</strong>
+            <p id="heroValueDelta">-</p>
+          </article>
+
+          <article class="stage-card">
+            <span class="card-label">Mortgage Debt</span>
+            <strong id="heroDebt">-</strong>
+            <p id="heroDebtMeta">-</p>
+          </article>
+        </div>
+
+        <aside class="hero-showcase" id="heroShowcase">
+          <div class="showcase-display">
+            <div class="showcase-backdrop" id="showcaseBackdrop"></div>
+            <div class="showcase-glass">
+              <span class="card-label">Signature Asset</span>
+              <h2 id="showcaseTitle">Načítám portfolio…</h2>
+              <p id="showcaseText">Připravuji dnešní vyprávění o portfoliu.</p>
+              <div class="showcase-stats" id="showcaseStats"></div>
+            </div>
+          </div>
+          <div class="showcase-strip" id="showcaseStrip"></div>
+        </aside>
+      </section>
+
+      <section class="metrics-grid" id="metricsGrid"></section>
+
+      <section class="story-grid">
+        <article class="panel chart-panel">
+          <div class="section-head">
+            <div>
+              <span class="card-label">Trend</span>
+              <h2>Daily real-estate equity</h2>
+            </div>
+            <div class="section-note" id="historyMeta">Načítám historii…</div>
+          </div>
+          <div class="chart-stage" id="equityChart"></div>
+        </article>
+
+        <article class="panel narrative-panel">
+          <div class="section-head">
+            <div>
+              <span class="card-label">Daily Pulse</span>
+              <h2 id="pulseHeadline">Načítám komentář…</h2>
+            </div>
+          </div>
+          <div class="narrative-list" id="pulseLines"></div>
+        </article>
+      </section>
+
+      <section class="setup-grid" id="setup">
+        <article class="panel assumptions-panel">
+          <div class="section-head">
+            <div>
+              <span class="card-label">Editable Inputs</span>
+              <h2>Doplnění cashflow a hotovosti</h2>
+            </div>
+            <div class="section-note">Ukládá se lokálně v tomto prohlížeči</div>
+          </div>
+          <form id="assumptionsForm" class="assumptions-form"></form>
+        </article>
+
+        <article class="panel cashflow-panel">
+          <div class="section-head">
+            <div>
+              <span class="card-label">Cashflow</span>
+              <h2>Měsíční dopad portfolia</h2>
+            </div>
+            <div class="section-note" id="cashflowStatus">Načítám…</div>
+          </div>
+          <div id="cashflowBreakdown" class="cashflow-breakdown"></div>
+          <div class="missing-block">
+            <span class="card-label">Still Missing</span>
+            <div id="missingDataList" class="missing-data"></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="panel property-panel">
+        <div class="section-head">
+          <div>
+            <span class="card-label">Holdings</span>
+            <h2>Každá nemovitost, její equity a dnešní tržní rámec</h2>
+          </div>
+          <div class="section-note">Comparables se berou z pražského trhu a denně se znovu skládají.</div>
+        </div>
+        <div class="property-grid" id="propertyGrid"></div>
+      </section>
+    </main>
+
+    <script src="./data/portfolio_snapshot.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

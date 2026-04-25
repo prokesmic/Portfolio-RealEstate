@@ -1,0 +1,43 @@
+name: Refresh Portfolio Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install certifi
+        run: python -m pip install --upgrade certifi
+
+      - name: Build portfolio snapshot
+        run: python scripts/build_portfolio_snapshot.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A dashboard/data/portfolio_snapshot.json dashboard/data/portfolio_snapshot.js
+          if [ -f data/portfolio_geocode_cache.json ]; then
+            git add -A data/portfolio_geocode_cache.json
+          fi
+          if git diff --cached --quiet; then
+            echo "No snapshot changes to commit."
+            exit 0
+          fi
+          git commit -m "Refresh portfolio snapshot"
+          git push

@@ -1,0 +1,109 @@
+{
+  "portfolio_name": "Michal Real Estate House",
+  "currency": "CZK",
+  "timezone": "Europe/Prague",
+  "recommended_refresh_time": "08:15",
+  "cash_czk": 2800000,
+  "pension_czk": 1000000,
+  "properties": [
+    {
+      "id": "brezineves-house",
+      "label": "Nemovitost 1",
+      "name": "Brezineves Family House",
+      "address": "Mikanovych 609/20, Brezineves, Praha, Czechia",
+      "locality": "Praha 8 - Brezineves",
+      "estate_type": "house",
+      "disposition": "6+1",
+      "use": "owner_occupied",
+      "usable_area_m2": 220,
+      "garden_area_m2": 900,
+      "outdoor_features": [
+        "Bazen",
+        "Zimni zahrada",
+        "Venkovni sauna",
+        "Krb",
+        "Skvely stav"
+      ],
+      "year_built": 2020,
+      "year_purchased": 2020,
+      "purchase_price_czk": 16000000,
+      "mortgage_balance_czk": 13800000,
+      "manual_estimate_low_czk": 25500000,
+      "manual_estimate_high_czk": 26500000,
+      "market": {
+        "locality_region_id": 10,
+        "max_pages": 12,
+        "locality_keywords": [
+          "brezineves"
+        ]
+      }
+    },
+    {
+      "id": "makedonska-flat",
+      "label": "Nemovitost 2",
+      "name": "Makedonska Flat",
+      "address": "Makedonska, Praha, Czechia",
+      "locality": "Praha 9 - Strizkov",
+      "estate_type": "flat",
+      "disposition": "2+kk",
+      "use": "rental",
+      "usable_area_m2": 41,
+      "balcony_area_m2": 3.5,
+      "floor": 5,
+      "condition": "excellent",
+      "outdoor_features": [
+        "Balkon",
+        "Kuchyn hotova",
+        "Skvely stav"
+      ],
+      "year_purchased": 2024,
+      "purchase_price_czk": 6300000,
+      "mortgage_balance_czk": 5830000,
+      "manual_estimate_low_czk": 6800000,
+      "manual_estimate_high_czk": 7000000,
+      "market": {
+        "locality_region_id": 10,
+        "max_pages": 20,
+        "locality_keywords": [
+          "strizkov"
+        ]
+      }
+    },
+    {
+      "id": "teplicka-flat",
+      "label": "Nemovitost 3",
+      "name": "Teplicka View Apartment",
+      "address": "Teplicka 604/15, Praha, Czechia",
+      "locality": "Praha 9 - Strizkov",
+      "estate_type": "flat",
+      "disposition": "4+kk",
+      "use": "rental",
+      "usable_area_m2": 103,
+      "loggia_area_m2": 8,
+      "floor": 8,
+      "condition": "excellent",
+      "view_note": "Vyhled na Prahu",
+      "outdoor_features": [
+        "Lodzie",
+        "Drevena podlaha",
+        "Drevena okna",
+        "Kvalitni kuchyn",
+        "Vysoke patro",
+        "Skvely stav"
+      ],
+      "year_built": 2012,
+      "year_purchased": 2012,
+      "purchase_price_czk": null,
+      "mortgage_balance_czk": 4370000,
+      "manual_estimate_low_czk": 14000000,
+      "manual_estimate_high_czk": 15000000,
+      "market": {
+        "locality_region_id": 10,
+        "max_pages": 20,
+        "locality_keywords": [
+          "strizkov"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "functions": {
+    "api/**/*.py": {
+      "excludeFiles": "{presentation_bundle/**,deck_extract/**,deck_extract_v2/**,.git.backup-*/**,slide*.png,slide*.mp4,slide*.mov,slide*.m4v}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/styles.css",
+      "destination": "/dashboard/styles.css"
+    },
+    {
+      "source": "/app.js",
+      "destination": "/dashboard/app.js"
+    },
+    {
+      "source": "/config.js",
+      "destination": "/dashboard/config.js"
+    },
+    {
+      "source": "/config.example.js",
+      "destination": "/dashboard/config.example.js"
+    },
+    {
+      "source": "/data/(.*)",
+      "destination": "/dashboard/data/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/dashboard/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/config.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    }
+  ]
+}
