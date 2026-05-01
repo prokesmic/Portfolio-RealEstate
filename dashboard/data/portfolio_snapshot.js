@@ -1,5 +1,5 @@
 window.__PORTFOLIO_SNAPSHOT__ = {
-  "generated_at": "2026-04-30T08:36:42Z",
+  "generated_at": "2026-05-01T08:25:30Z",
   "portfolio_name": "Michal Real Estate House",
   "currency": "CZK",
   "timezone": "Europe/Prague",
@@ -36,20 +36,20 @@ window.__PORTFOLIO_SNAPSHOT__ = {
       "finance": {
         "purchase_price_czk": 16000000,
         "mortgage_balance_czk": 13800000,
-        "equity_czk": 12264438,
-        "ltv_pct": 52.9
+        "equity_czk": 13348175,
+        "ltv_pct": 50.8
       },
       "valuation": {
-        "estimated_value_czk": 26064438,
-        "estimate_low_czk": 23953754,
-        "estimate_high_czk": 28158295,
-        "weighted_price_per_m2_czk": 102056,
-        "median_price_per_m2_czk": 103649,
+        "estimated_value_czk": 27148175,
+        "estimate_low_czk": 24818245,
+        "estimate_high_czk": 29180614,
+        "weighted_price_per_m2_czk": 107769,
+        "median_price_per_m2_czk": 107037,
         "confidence_score": 0.91,
         "comparable_count": 12,
         "methodology": "Weighted Prague Sreality comparables blended with your manual anchor when confidence is lower.",
-        "value_change_vs_purchase_czk": 10064438,
-        "value_change_vs_previous_czk": 166600
+        "value_change_vs_purchase_czk": 11148175,
+        "value_change_vs_previous_czk": 1083737
       },
       "geocode": {
         "lat": 50.1695443,
@@ -69,26 +69,37 @@ window.__PORTFOLIO_SNAPSHOT__ = {
           "score": 0.8905
         },
         {
-          "title": "For sale  family house 127 m², land 383 m²",
-          "locality": "Poštolčí, Praha 8 - Březiněves",
-          "price_czk": 17970240,
-          "price_per_m2_czk": 141498,
-          "usable_area_m2": 127.0,
-          "distance_km": 0.4,
-          "url": "https://www.sreality.cz/detail/prodej/dum/praha-brezineves-postolci/559653708",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_oa_B/kBkJRwehYDe7bDCLBDcSsM6/6fcb.png?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.7369
+          "title": "For sale  villas 242 m², land 684 m²",
+          "locality": "Vraní, Praha 8 - Březiněves",
+          "price_czk": 26615776,
+          "price_per_m2_czk": 109983,
+          "usable_area_m2": 242.0,
+          "distance_km": 0.2,
+          "url": "https://www.sreality.cz/detail/prodej/dum/praha-brezineves-vrani/1531184460",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_QI_Jr/A70BHHw.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.8745
         },
         {
-          "title": "For sale  family house 215 m², land 486 m²",
-          "locality": "Jizerská, Praha 9 - Čakovice",
-          "price_czk": 15800000,
-          "price_per_m2_czk": 73488,
-          "usable_area_m2": 215.0,
-          "distance_km": 3.7,
-          "url": "https://www.sreality.cz/detail/prodej/dum/praha-cakovice-jizerska/2842747724",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p8_D/nPVpfd5QLLDoMo7JjEF4zQ8Y/4f10.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.7086
+          "title": "For sale  family house 155 m², land 620 m²",
+          "locality": "Zvěřinových, Praha 8 - Březiněves",
+          "price_czk": 21880000,
+          "price_per_m2_czk": 141161,
+          "usable_area_m2": 155.0,
+          "distance_km": 0.2,
+          "url": "https://www.sreality.cz/detail/prodej/dum/praha-brezineves-zverinovych/3808179020",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_of_A/nO1Ur3YPjBDq6KHBiIEyY7AD/ae5c.png?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.7931
+        },
+        {
+          "title": "For sale  family house 128 m², land 602 m²",
+          "locality": "Bezinková, Praha 8 - Březiněves",
+          "price_czk": 18800000,
+          "price_per_m2_czk": 146875,
+          "usable_area_m2": 128.0,
+          "distance_km": 0.7,
+          "url": "https://www.sreality.cz/detail/prodej/dum/praha-brezineves-bezinkova/2463777612",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p9_D/nCTUX1iX5CNPfpKL2GI6TH3/4883.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.7358
         },
         {
           "title": "For sale  family house 218 m², land 698 m²",
@@ -100,17 +111,6 @@ window.__PORTFOLIO_SNAPSHOT__ = {
           "url": "https://www.sreality.cz/detail/prodej/dum/praha-cimice-libcicka/1076654924",
           "image_url": "https://d18-a.sdn.cz/d_18/c_img_p8_A/kBfrbpoeNBP53EErXFpoKsz/58fd.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
           "score": 0.7072
-        },
-        {
-          "title": "For sale  family house 225 m², land 586 m²",
-          "locality": "Mirovická, Praha 8 - Kobylisy",
-          "price_czk": 32000000,
-          "price_per_m2_czk": 142222,
-          "usable_area_m2": 225.0,
-          "distance_km": 4.9,
-          "url": "https://www.sreality.cz/detail/prodej/dum/praha-kobylisy-mirovicka/1841259340",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p8_B/nPVpfd5QLLBPLz5CcbFyoZkf/ab5b.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.6965
         }
       ],
       "missing_inputs": [
@@ -148,20 +148,20 @@ window.__PORTFOLIO_SNAPSHOT__ = {
       "finance": {
         "purchase_price_czk": 6300000,
         "mortgage_balance_czk": 5830000,
-        "equity_czk": 1977091,
-        "ltv_pct": 74.7
+        "equity_czk": 1352311,
+        "ltv_pct": 81.2
       },
       "valuation": {
-        "estimated_value_czk": 7807091,
-        "estimate_low_czk": 7091145,
-        "estimate_high_czk": 8304609,
-        "weighted_price_per_m2_czk": 180803,
-        "median_price_per_m2_czk": 182107,
+        "estimated_value_czk": 7182311,
+        "estimate_low_czk": 6587044,
+        "estimate_high_czk": 7708928,
+        "weighted_price_per_m2_czk": 162360,
+        "median_price_per_m2_czk": 170006,
         "confidence_score": 0.94,
         "comparable_count": 12,
         "methodology": "Weighted Prague Sreality comparables blended with your manual anchor when confidence is lower.",
-        "value_change_vs_purchase_czk": 1507091,
-        "value_change_vs_previous_czk": -187025
+        "value_change_vs_purchase_czk": 882311,
+        "value_change_vs_previous_czk": -624780
       },
       "geocode": {
         "lat": 50.1297767,
@@ -170,26 +170,15 @@ window.__PORTFOLIO_SNAPSHOT__ = {
       },
       "comparables": [
         {
-          "title": "For sale apartment 2+kt 39 m²",
-          "locality": "Šluknovská, Praha 9 - Střížkov",
-          "price_czk": 7450997,
-          "price_per_m2_czk": 191051,
-          "usable_area_m2": 39.0,
-          "distance_km": 0.2,
-          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-strizkov-sluknovska/1566748748",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_C/nCTUX1iX5bIUB0K8GVzQMl/99e7.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.9743
-        },
-        {
-          "title": "For sale apartment 2+kt 42 m² (Single-storey)",
-          "locality": "Teplická, Praha 9 - Střížkov",
-          "price_czk": 7200000,
-          "price_per_m2_czk": 171429,
-          "usable_area_m2": 42.0,
-          "distance_km": 0.7,
-          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-strizkov-teplicka/1170490188",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_E/kcHp2YdDtEDuRmBXbGGdX0XG/a1fa.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.9734
+          "title": "For sale apartment 2+kt 45 m²",
+          "locality": "Děčínská, Praha 8 - Střížkov",
+          "price_czk": 5490000,
+          "price_per_m2_czk": 122000,
+          "usable_area_m2": 45.0,
+          "distance_km": 0.9,
+          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-strizkov-decinska/2598481996",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_E/nCTUX1iX5Do9kXBHd3GenLxr/b886.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.9401
         },
         {
           "title": "For sale apartment 1+kt 38 m²",
@@ -204,25 +193,36 @@ window.__PORTFOLIO_SNAPSHOT__ = {
         },
         {
           "title": "For sale apartment 2+kt 41 m²",
-          "locality": "Prosecká, Praha 9 - Prosek",
-          "price_czk": 6190000,
-          "price_per_m2_czk": 150976,
+          "locality": "Gabčíkova, Praha 8 - Libeň",
+          "price_czk": 7990000,
+          "price_per_m2_czk": 194878,
           "usable_area_m2": 41.0,
-          "distance_km": 1.2,
-          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-prosek-prosecka/1265849164",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p9_B/kcHp2YdDtDgLT0B7uGBOLky/bbeb.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.8134
+          "distance_km": 2.6,
+          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-liben-gabcikova/2093920332",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_D/nCTUX1iX5CFdAHBBkyGaVWle/c987.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.7836
         },
         {
-          "title": "For sale apartment 2+kt 39 m² (Single-storey)",
-          "locality": "Litvínovská, Praha 9 - Prosek",
-          "price_czk": 7290000,
-          "price_per_m2_czk": 186923,
-          "usable_area_m2": 39.0,
-          "distance_km": 1.0,
-          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-prosek-litvinovska/4036641612",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p9_D/nCTUX1iX5CFdAHJX1GJkKyK/f914.png?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.7972
+          "title": "For sale apartment 2+kt 45 m²",
+          "locality": "Taussigova, Praha 8 - Kobylisy",
+          "price_czk": 7950000,
+          "price_per_m2_czk": 176667,
+          "usable_area_m2": 45.0,
+          "distance_km": 1.5,
+          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-kobylisy-taussigova/1604281164",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p8_B/nPVpfd5QLLksKHCwFFy5Fye/0504.png?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.7655
+        },
+        {
+          "title": "For sale apartment 2+kt 44 m²",
+          "locality": "Praha 9",
+          "price_czk": 7461500,
+          "price_per_m2_czk": 169580,
+          "usable_area_m2": 44.0,
+          "distance_km": 2.8,
+          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-praha-9-/1115759948",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p7_B/kOzkBkwYBTqAqfPNjFgQgH9/20b4.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.7475
         }
       ],
       "missing_inputs": [
@@ -263,20 +263,20 @@ window.__PORTFOLIO_SNAPSHOT__ = {
       "finance": {
         "purchase_price_czk": null,
         "mortgage_balance_czk": 4370000,
-        "equity_czk": 14316018,
+        "equity_czk": 14279946,
         "ltv_pct": 23.4
       },
       "valuation": {
-        "estimated_value_czk": 18686018,
-        "estimate_low_czk": 16670420,
-        "estimate_high_czk": 19665576,
-        "weighted_price_per_m2_czk": 171303,
+        "estimated_value_czk": 18649946,
+        "estimate_low_czk": 16635977,
+        "estimate_high_czk": 19631194,
+        "weighted_price_per_m2_czk": 170794,
         "median_price_per_m2_czk": 167568,
         "confidence_score": 0.93,
         "comparable_count": 12,
         "methodology": "Weighted Prague Sreality comparables blended with your manual anchor when confidence is lower.",
         "value_change_vs_purchase_czk": null,
-        "value_change_vs_previous_czk": 1617335
+        "value_change_vs_previous_czk": -36072
       },
       "geocode": {
         "lat": 50.1250839,
@@ -307,6 +307,17 @@ window.__PORTFOLIO_SNAPSHOT__ = {
           "score": 0.8745
         },
         {
+          "title": "For sale apartment unusual 92 m² (Mezonet)",
+          "locality": "Zakšínská, Praha 9 - Střížkov",
+          "price_czk": 17500000,
+          "price_per_m2_czk": 190217,
+          "usable_area_m2": 92.0,
+          "distance_km": 0.9,
+          "url": "https://www.sreality.cz/detail/prodej/byt/praha-strizkov-zaksinska/3497173068",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_F/nCTUX1iX5Do9kXBICSGfJRnk/efe7.png?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.8538
+        },
+        {
           "title": "For sale apartment 3+kt 134 m²",
           "locality": "Střížkovská, Praha 9 - Střížkov",
           "price_czk": 13875000,
@@ -327,17 +338,6 @@ window.__PORTFOLIO_SNAPSHOT__ = {
           "url": "https://www.sreality.cz/detail/prodej/byt/3+kk/praha-strizkov-jitravska/3098628940",
           "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_C/kcHp2YdDtDgLT0tVWGWRJnI/73df.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
           "score": 0.8038
-        },
-        {
-          "title": "For sale apartment 4+kt 103 m²",
-          "locality": "Sokolovská, Praha 9 - Libeň",
-          "price_czk": 19729000,
-          "price_per_m2_czk": 191544,
-          "usable_area_m2": 103.0,
-          "distance_km": 2.0,
-          "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/praha-liben-sokolovska/1512727372",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p8_B/nPVpfd5QLLEA4WVrkFwEkcY/2893.png?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.7969
         }
       ],
       "missing_inputs": [
@@ -351,9 +351,9 @@ window.__PORTFOLIO_SNAPSHOT__ = {
     }
   ],
   "totals": {
-    "estimated_value_czk": 52557547,
+    "estimated_value_czk": 52980432,
     "mortgage_balance_czk": 24000000,
-    "real_estate_equity_czk": 28557547
+    "real_estate_equity_czk": 28980432
   },
   "history": [
     {
@@ -391,15 +391,21 @@ window.__PORTFOLIO_SNAPSHOT__ = {
       "estimated_value_czk": 52557547,
       "mortgage_balance_czk": 24000000,
       "real_estate_equity_czk": 28557547
+    },
+    {
+      "date": "2026-05-01",
+      "estimated_value_czk": 52980432,
+      "mortgage_balance_czk": 24000000,
+      "real_estate_equity_czk": 28980432
     }
   ],
   "narrative": {
     "headline": "Daily pulse for your residential balance sheet",
     "lines": [
-      "Today the portfolio is marked at 52 557 547 CZK before cash and other debts.",
+      "Today the portfolio is marked at 52 980 432 CZK before cash and other debts.",
       "The strongest live valuation confidence sits on Makedonska Flat at 94%.",
-      "Versus the last stored snapshot  portfolio market value is up by 1 596 910 CZK.",
-      "Biggest move: Teplicka View Apartment +1 617 335 CZK since the previous refresh.",
+      "Versus the last stored snapshot  portfolio market value is up by 422 885 CZK.",
+      "Biggest move: Brezineves Family House +1 083 737 CZK since the previous refresh.",
       "There are still 16 financial inputs waiting to be filled in the app for sharper cashflow math."
     ]
   }
