@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T09:59:58Z",
+  "generated_at": "2026-05-12T09:13:15Z",
   "portfolio_name": "Michal Real Estate House",
   "currency": "CZK",
   "timezone": "Europe/Prague",
@@ -148,20 +148,20 @@
       "finance": {
         "purchase_price_czk": 6300000,
         "mortgage_balance_czk": 5830000,
-        "equity_czk": 1399223,
-        "ltv_pct": 80.6
+        "equity_czk": 1571311,
+        "ltv_pct": 78.8
       },
       "valuation": {
-        "estimated_value_czk": 7229223,
-        "estimate_low_czk": 6626870,
-        "estimate_high_czk": 7752299,
-        "weighted_price_per_m2_czk": 167649,
-        "median_price_per_m2_czk": 163638,
+        "estimated_value_czk": 7401311,
+        "estimate_low_czk": 6765130,
+        "estimate_high_czk": 7916776,
+        "weighted_price_per_m2_czk": 171091,
+        "median_price_per_m2_czk": 170019,
         "confidence_score": 0.94,
         "comparable_count": 12,
         "methodology": "Weighted Prague Sreality comparables blended with your manual anchor when confidence is lower.",
-        "value_change_vs_purchase_czk": 929223,
-        "value_change_vs_previous_czk": 259761
+        "value_change_vs_purchase_czk": 1101311,
+        "value_change_vs_previous_czk": 172088
       },
       "geocode": {
         "lat": 50.1297767,
@@ -170,15 +170,15 @@
       },
       "comparables": [
         {
-          "title": "For sale apartment 2+kt 42 m² (Single-storey)",
-          "locality": "Teplická, Praha 9 - Střížkov",
-          "price_czk": 7100000,
-          "price_per_m2_czk": 169048,
-          "usable_area_m2": 42.0,
-          "distance_km": 0.7,
-          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-strizkov-teplicka/1170490188",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qB_A/kcHp2YdDtCDcb5EJ4Giku51/29e5.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.9734
+          "title": "For sale apartment 2+kt 47 m² (Single-storey)",
+          "locality": "Žandovská, Praha 9 - Střížkov",
+          "price_czk": 7200000,
+          "price_per_m2_czk": 153191,
+          "usable_area_m2": 47.0,
+          "distance_km": 0.3,
+          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-strizkov-zandovska/2952368204",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qB_B/kcHp2YdDtBM3KVBEYbGlwpWn/a75e.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.9328
         },
         {
           "title": "For sale apartment 1+kt 38 m²",
@@ -192,37 +192,37 @@
           "score": 0.9187
         },
         {
-          "title": "For sale apartment 2+kt 53 m² (Single-storey)",
-          "locality": "Makedonská, Praha - Střížkov",
-          "price_czk": 8200000,
-          "price_per_m2_czk": 154717,
+          "title": "For sale apartment 2+kt 53 m²",
+          "locality": "Makedonská, Praha 9 - Střížkov",
+          "price_czk": 9000000,
+          "price_per_m2_czk": 169811,
           "usable_area_m2": 53.0,
-          "distance_km": 0.0,
-          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-strizkov-makedonska/4001009740",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qB_B/kcHp2YdDtEBMvIBCxLGlDYq5/5dfc.png?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.8769
+          "distance_km": 0.1,
+          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-strizkov-makedonska/1112383564",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_E/nCTUX1iX5CNPfpBcUgGd3Tyx/353b.png?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.8754
+        },
+        {
+          "title": "For sale apartment 2+kt 41 m²",
+          "locality": "Tupolevova, Praha 9 - Letňany",
+          "price_czk": 7300000,
+          "price_per_m2_czk": 178049,
+          "usable_area_m2": 41.0,
+          "distance_km": 1.0,
+          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-letnany-tupolevova/1363845196",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_D/nCTUX1iX5CoHumBCWeGagCHb/8582.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.8186
         },
         {
           "title": "For sale apartment 2+kt 43 m²",
-          "locality": "Litoměřická, Praha 9 - Prosek",
-          "price_czk": 6699000,
-          "price_per_m2_czk": 155791,
+          "locality": "Frýdlantská, Praha 8 - Kobylisy",
+          "price_czk": 6990000,
+          "price_per_m2_czk": 162558,
           "usable_area_m2": 43.0,
-          "distance_km": 1.2,
-          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-prosek-litomericka/2904203340",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_D/kcHp2YdDtBwNESBSLgGa221w/9cd4.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.7927
-        },
-        {
-          "title": "For sale apartment 3+kt 54 m²",
-          "locality": "K Šafránce, Praha 9 - Střížkov",
-          "price_czk": 7499000,
-          "price_per_m2_czk": 138870,
-          "usable_area_m2": 54.0,
-          "distance_km": 1.2,
-          "url": "https://www.sreality.cz/detail/prodej/byt/3+kk/praha-strizkov-k-safrance/220958796",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qB_B/kcHp2YdDtCJexHGHfGjxVPU/18f9.png?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.79
+          "distance_km": 1.1,
+          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-kobylisy-frydlantska/359641164",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_C/kcHp2YdDtDgLT0vJtGW4cLd/5722.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.7952
         }
       ],
       "missing_inputs": [
@@ -263,20 +263,20 @@
       "finance": {
         "purchase_price_czk": null,
         "mortgage_balance_czk": 4370000,
-        "equity_czk": 12379101,
-        "ltv_pct": 26.1
+        "equity_czk": 12874650,
+        "ltv_pct": 25.3
       },
       "valuation": {
-        "estimated_value_czk": 16749101,
-        "estimate_low_czk": 15142274,
-        "estimate_high_czk": 17814344,
-        "weighted_price_per_m2_czk": 149034,
-        "median_price_per_m2_czk": 152985,
-        "confidence_score": 0.94,
+        "estimated_value_czk": 17244650,
+        "estimate_low_czk": 15500732,
+        "estimate_high_czk": 18294781,
+        "weighted_price_per_m2_czk": 156448,
+        "median_price_per_m2_czk": 153949,
+        "confidence_score": 0.92,
         "comparable_count": 12,
         "methodology": "Weighted Prague Sreality comparables blended with your manual anchor when confidence is lower.",
         "value_change_vs_purchase_czk": null,
-        "value_change_vs_previous_czk": -87380
+        "value_change_vs_previous_czk": 495549
       },
       "geocode": {
         "lat": 50.1250839,
@@ -284,17 +284,6 @@
         "display_name": "604/15, Teplická, Střížkov, obvod Praha 9, Praha, 190 00, Česko, SO Praha 9"
       },
       "comparables": [
-        {
-          "title": "For sale apartment 4+kt 103 m²",
-          "locality": "Makedonská, Praha 9 - Střížkov",
-          "price_czk": 19200000,
-          "price_per_m2_czk": 186408,
-          "usable_area_m2": 103.0,
-          "distance_km": 0.8,
-          "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/praha-strizkov-makedonska/2444051276",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p9_D/kcHp2YdDtDrxR2I7DGJ9M3X/18a1.png?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.9825
-        },
         {
           "title": "For sale apartment 4+kt 104 m²",
           "locality": "Makedonská, Praha 9 - Střížkov",
@@ -318,26 +307,37 @@
           "score": 0.8745
         },
         {
-          "title": "For sale apartment 3+kt 84 m² (Single-storey)",
-          "locality": "Střížkovská, Praha 8 - Střížkov",
-          "price_czk": 13450000,
-          "price_per_m2_czk": 160119,
-          "usable_area_m2": 84.0,
-          "distance_km": 0.2,
-          "url": "https://www.sreality.cz/detail/prodej/byt/3+kk/praha-strizkov-strizkovska/469128012",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p9_C/nCTUX1iX5CoHumDgcGEvJPd/361d.png?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.8673
+          "title": "For sale apartment 3+kt 134 m²",
+          "locality": "Střížkovská, Praha 9 - Střížkov",
+          "price_czk": 13875000,
+          "price_per_m2_czk": 103545,
+          "usable_area_m2": 134.0,
+          "distance_km": 0.1,
+          "url": "https://www.sreality.cz/detail/prodej/byt/3+kk/praha-strizkov-strizkovska/131003212",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_C/kcHp2YdDtBwNESBAzbGWSbB4/4908.png?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.8215
         },
         {
-          "title": "For sale apartment 3+1 77 m² (Single-storey)",
-          "locality": "Děčínská, Praha 9 - Střížkov",
-          "price_czk": 9790000,
-          "price_per_m2_czk": 127143,
-          "usable_area_m2": 77.0,
+          "title": "For sale apartment 3+kt 69 m²",
+          "locality": "Jitravská, Praha 8 - Střížkov",
+          "price_czk": 11950000,
+          "price_per_m2_czk": 173188,
+          "usable_area_m2": 69.0,
+          "distance_km": 0.3,
+          "url": "https://www.sreality.cz/detail/prodej/byt/3+kk/praha-strizkov-jitravska/3098628940",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_C/kcHp2YdDtDgLT0tVWGWRJnI/73df.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.8038
+        },
+        {
+          "title": "For sale apartment 3+1 64 m² (Single-storey)",
+          "locality": "Rumburská, Praha 9 - Střížkov",
+          "price_czk": 8250000,
+          "price_per_m2_czk": 128906,
+          "usable_area_m2": 64.0,
           "distance_km": 0.2,
-          "url": "https://www.sreality.cz/detail/prodej/byt/3+1/praha-strizkov-decinska/3194335308",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_D/kcHp2YdDtDgLT03AXGZcgJF/2d30.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.8396
+          "url": "https://www.sreality.cz/detail/prodej/byt/3+1/praha-strizkov-rumburska/4267328332",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_D/kcHp2YdDtDgLT042KGbGjjO/dedc.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.7862
         }
       ],
       "missing_inputs": [
@@ -351,9 +351,9 @@
     }
   ],
   "totals": {
-    "estimated_value_czk": 50228911,
+    "estimated_value_czk": 50896548,
     "mortgage_balance_czk": 24000000,
-    "real_estate_equity_czk": 26228911
+    "real_estate_equity_czk": 26896548
   },
   "history": [
     {
@@ -451,15 +451,21 @@
       "estimated_value_czk": 50228911,
       "mortgage_balance_czk": 24000000,
       "real_estate_equity_czk": 26228911
+    },
+    {
+      "date": "2026-05-12",
+      "estimated_value_czk": 50896548,
+      "mortgage_balance_czk": 24000000,
+      "real_estate_equity_czk": 26896548
     }
   ],
   "narrative": {
     "headline": "Daily pulse for your residential balance sheet",
     "lines": [
-      "Today the portfolio is marked at 50 228 911 CZK before cash and other debts.",
+      "Today the portfolio is marked at 50 896 548 CZK before cash and other debts.",
       "The strongest live valuation confidence sits on Makedonska Flat at 94%.",
-      "Versus the last stored snapshot  portfolio market value is up by 172 381 CZK.",
-      "Biggest move: Makedonska Flat +259 761 CZK since the previous refresh.",
+      "Versus the last stored snapshot  portfolio market value is up by 667 637 CZK.",
+      "Biggest move: Teplicka View Apartment +495 549 CZK since the previous refresh.",
       "There are still 16 financial inputs waiting to be filled in the app for sharper cashflow math."
     ]
   }
