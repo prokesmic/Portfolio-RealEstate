@@ -1,5 +1,5 @@
 window.__PORTFOLIO_SNAPSHOT__ = {
-  "generated_at": "2026-05-15T09:24:49Z",
+  "generated_at": "2026-05-16T08:19:53Z",
   "portfolio_name": "Michal Real Estate House",
   "currency": "CZK",
   "timezone": "Europe/Prague",
@@ -36,20 +36,20 @@ window.__PORTFOLIO_SNAPSHOT__ = {
       "finance": {
         "purchase_price_czk": 16000000,
         "mortgage_balance_czk": 13800000,
-        "equity_czk": 12590799,
-        "ltv_pct": 52.3
+        "equity_czk": 13031797,
+        "ltv_pct": 51.4
       },
       "valuation": {
-        "estimated_value_czk": 26390799,
-        "estimate_low_czk": 24198516,
-        "estimate_high_czk": 28479255,
-        "weighted_price_per_m2_czk": 104336,
-        "median_price_per_m2_czk": 103649,
+        "estimated_value_czk": 26831797,
+        "estimate_low_czk": 24548722,
+        "estimate_high_czk": 28894513,
+        "weighted_price_per_m2_czk": 106916,
+        "median_price_per_m2_czk": 104571,
         "confidence_score": 0.9,
         "comparable_count": 12,
         "methodology": "Weighted Prague Sreality comparables blended with your manual anchor when confidence is lower.",
-        "value_change_vs_purchase_czk": 10390799,
-        "value_change_vs_previous_czk": 0
+        "value_change_vs_purchase_czk": 10831797,
+        "value_change_vs_previous_czk": 440998
       },
       "geocode": {
         "lat": 50.1695443,
@@ -148,20 +148,20 @@ window.__PORTFOLIO_SNAPSHOT__ = {
       "finance": {
         "purchase_price_czk": 6300000,
         "mortgage_balance_czk": 5830000,
-        "equity_czk": 1646712,
-        "ltv_pct": 78.0
+        "equity_czk": 1993614,
+        "ltv_pct": 74.5
       },
       "valuation": {
-        "estimated_value_czk": 7476712,
-        "estimate_low_czk": 6822092,
-        "estimate_high_czk": 7990521,
-        "weighted_price_per_m2_czk": 168650,
-        "median_price_per_m2_czk": 180233,
+        "estimated_value_czk": 7823614,
+        "estimate_low_czk": 7103587,
+        "estimate_high_czk": 8320636,
+        "weighted_price_per_m2_czk": 179794,
+        "median_price_per_m2_czk": 185233,
         "confidence_score": 0.94,
         "comparable_count": 12,
         "methodology": "Weighted Prague Sreality comparables blended with your manual anchor when confidence is lower.",
-        "value_change_vs_purchase_czk": 1176712,
-        "value_change_vs_previous_czk": 199913
+        "value_change_vs_purchase_czk": 1523614,
+        "value_change_vs_previous_czk": 346902
       },
       "geocode": {
         "lat": 50.1297767,
@@ -170,15 +170,15 @@ window.__PORTFOLIO_SNAPSHOT__ = {
       },
       "comparables": [
         {
-          "title": "For sale apartment 2+kt 45 m²",
-          "locality": "Děčínská, Praha 8 - Střížkov",
-          "price_czk": 5490000,
-          "price_per_m2_czk": 122000,
-          "usable_area_m2": 45.0,
-          "distance_km": 0.9,
-          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-strizkov-decinska/2598481996",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_E/nCTUX1iX5Do9kXBHd3GenLxr/b886.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.9401
+          "title": "For sale apartment 2+kt 39 m²",
+          "locality": "Šluknovská, Praha 9 - Střížkov",
+          "price_czk": 7450997,
+          "price_per_m2_czk": 191051,
+          "usable_area_m2": 39.0,
+          "distance_km": 0.2,
+          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-strizkov-sluknovska/1566748748",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qB_C/nCTUX1iX5BWLrlBTUXGn6MTl/73da.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.9743
         },
         {
           "title": "For sale apartment 1+kt 38 m²",
@@ -203,15 +203,15 @@ window.__PORTFOLIO_SNAPSHOT__ = {
           "score": 0.79
         },
         {
-          "title": "For sale apartment 2+kt 41 m²",
-          "locality": "Gabčíkova, Praha 8 - Libeň",
-          "price_czk": 7990000,
-          "price_per_m2_czk": 194878,
-          "usable_area_m2": 41.0,
-          "distance_km": 2.6,
-          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-liben-gabcikova/2093920332",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_qA_D/nCTUX1iX5CFdAHBBkyGaVWle/c987.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.7836
+          "title": "For sale apartment 2+kt 40 m²",
+          "locality": "Pod Labuťkou, Praha 8 - Libeň",
+          "price_czk": 6999000,
+          "price_per_m2_czk": 174975,
+          "usable_area_m2": 40.0,
+          "distance_km": 2.3,
+          "url": "https://www.sreality.cz/detail/prodej/byt/2+kk/praha-liben-pod-labutkou/3456717644",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p9_A/kY1K2LlXQB7HUzGOEF7cGkd/d412.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.7798
         },
         {
           "title": "For sale apartment 2+kt 43 m² (Single-storey)",
@@ -263,20 +263,20 @@ window.__PORTFOLIO_SNAPSHOT__ = {
       "finance": {
         "purchase_price_czk": null,
         "mortgage_balance_czk": 4370000,
-        "equity_czk": 12316416,
-        "ltv_pct": 26.2
+        "equity_czk": 13456872,
+        "ltv_pct": 24.5
       },
       "valuation": {
-        "estimated_value_czk": 16686416,
-        "estimate_low_czk": 15059147,
-        "estimate_high_czk": 17763158,
-        "weighted_price_per_m2_czk": 147760,
-        "median_price_per_m2_czk": 153949,
-        "confidence_score": 0.92,
+        "estimated_value_czk": 17826872,
+        "estimate_low_czk": 15998052,
+        "estimate_high_czk": 18845407,
+        "weighted_price_per_m2_czk": 161272,
+        "median_price_per_m2_czk": 161279,
+        "confidence_score": 0.94,
         "comparable_count": 12,
         "methodology": "Weighted Prague Sreality comparables blended with your manual anchor when confidence is lower.",
         "value_change_vs_purchase_czk": null,
-        "value_change_vs_previous_czk": -1073664
+        "value_change_vs_previous_czk": 1140456
       },
       "geocode": {
         "lat": 50.1250839,
@@ -294,6 +294,17 @@ window.__PORTFOLIO_SNAPSHOT__ = {
           "url": "https://www.sreality.cz/detail/prodej/byt/3+kk/praha--strizkovska/4040077388",
           "image_url": "https://d18-a.sdn.cz/d_18/c_img_qB_C/kcHp2YdDtBwNESBiuPGnRLII/415d.png?fl=res,400,300,3|shr,,20|jpg,90",
           "score": 0.8786
+        },
+        {
+          "title": "For sale apartment 3+kt 84 m² (Single-storey)",
+          "locality": "Střížkovská, Praha 8 - Střížkov",
+          "price_czk": 13450000,
+          "price_per_m2_czk": 160119,
+          "usable_area_m2": 84.0,
+          "distance_km": 0.2,
+          "url": "https://www.sreality.cz/detail/prodej/byt/3+kk/praha-strizkov-strizkovska/469128012",
+          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p9_C/nCTUX1iX5CoHumDgcGEvJPd/361d.png?fl=res,400,300,3|shr,,20|jpg,90",
+          "score": 0.8673
         },
         {
           "title": "For sale apartment 3+kt 81 m²",
@@ -327,17 +338,6 @@ window.__PORTFOLIO_SNAPSHOT__ = {
           "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/praha--prosecka/2454680396",
           "image_url": "https://d18-a.sdn.cz/d_18/c_img_p9_D/nCTUX1iX5BWZuTLTkGKp5Hw/57d9.jpeg?fl=res,400,300,3|shr,,20|jpg,90",
           "score": 0.8013
-        },
-        {
-          "title": "For sale apartment 4+kt 103 m²",
-          "locality": "Sokolovská, Praha 9 - Libeň",
-          "price_czk": 19729000,
-          "price_per_m2_czk": 191544,
-          "usable_area_m2": 103.0,
-          "distance_km": 2.0,
-          "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/praha-liben-sokolovska/1512727372",
-          "image_url": "https://d18-a.sdn.cz/d_18/c_img_p8_B/nPVpfd5QLLEA4WVrkFwEkcY/2893.png?fl=res,400,300,3|shr,,20|jpg,90",
-          "score": 0.7969
         }
       ],
       "missing_inputs": [
@@ -351,9 +351,9 @@ window.__PORTFOLIO_SNAPSHOT__ = {
     }
   ],
   "totals": {
-    "estimated_value_czk": 50553927,
+    "estimated_value_czk": 52482283,
     "mortgage_balance_czk": 24000000,
-    "real_estate_equity_czk": 26553927
+    "real_estate_equity_czk": 28482283
   },
   "history": [
     {
@@ -475,15 +475,21 @@ window.__PORTFOLIO_SNAPSHOT__ = {
       "estimated_value_czk": 50553927,
       "mortgage_balance_czk": 24000000,
       "real_estate_equity_czk": 26553927
+    },
+    {
+      "date": "2026-05-16",
+      "estimated_value_czk": 52482283,
+      "mortgage_balance_czk": 24000000,
+      "real_estate_equity_czk": 28482283
     }
   ],
   "narrative": {
     "headline": "Daily pulse for your residential balance sheet",
     "lines": [
-      "Today the portfolio is marked at 50 553 927 CZK before cash and other debts.",
+      "Today the portfolio is marked at 52 482 283 CZK before cash and other debts.",
       "The strongest live valuation confidence sits on Makedonska Flat at 94%.",
-      "Versus the last stored snapshot  portfolio market value is down by 873 751 CZK.",
-      "Biggest move: Teplicka View Apartment -1 073 664 CZK since the previous refresh.",
+      "Versus the last stored snapshot  portfolio market value is up by 1 928 356 CZK.",
+      "Biggest move: Teplicka View Apartment +1 140 456 CZK since the previous refresh.",
       "There are still 16 financial inputs waiting to be filled in the app for sharper cashflow math."
     ]
   }
